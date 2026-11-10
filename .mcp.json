@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "ads-read-mcp": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:\\Users\\RyanO\\Desktop\\TwinCAT Claude Sandbox\\ads-read-mcp.js"
+      ],
+      "env": {
+        "ADS_NETID": "169.254.82.187.1.1",
+        "ADS_PORT": "851"
+      }
+    },
+    "ads-write-mcp": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:\\Users\\RyanO\\Desktop\\TwinCAT Claude Sandbox\\ads-write-mcp.js"
+      ],
+      "env": {
+        "ADS_PORT": "851"
+      }
+    }
+  }
+}
